@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Gallery</h1>
+        <input type="text" id="searchInput" placeholder="Search Images...">
+    </div>
+
+    <div class="gallery-container">
+        <div class="gallery-item" data-title="Candle/Book">
+            <img src="l.jpg" alt="Candle/Book" class="gallery-image">
+        </div>
+        <div class="gallery-item" data-title="Rain">
+            <img src="e.jpg" alt="Rain" class="gallery-image">
+        </div>
+        <div class="gallery-item" data-title="Autumn/Fall">
+            <img src="g.jpg" alt="Autumn/Fall" class="gallery-image">
+        </div>
+        <div class="gallery-item" data-title="Sea/Sunset">
+            <img src="q.jpg" alt="Sea/Sunset" class="gallery-image">
+        </div>
+        <div class="gallery-item" data-title="Aesthetic">
+            <img src="i.jpg" alt="Aesthetic" class="gallery-image">
+        </div>
+        <div class="gallery-item" data-title="Cozy/Rain">
+            <img src="o.jpg" alt="Cozy/Rain" class="gallery-image">
+        </div>
+        
+        <div class="gallery-item" data-title="Book/Fall">
+            <img src="h.jpg" alt="Book/Fall" class="gallery-image">
+        </div>
+        <div class="gallery-item" data-title="Eyes">
+            <img src="m.jpg" alt="Eyes" class="gallery-image">
+        </div>
+        <div class="gallery-item" data-title="Autumn/Fall">
+            <img src="a.jpg" alt="Autumn/Fall" class="gallery-image">
+        </div>
+        <div class="gallery-item" data-title="Stars">
+            <img src="n.jpg" alt="Stars" class="gallery-image">
+        </div>
+        <div class="gallery-item" data-title="Coffee/Fall">
+            <img src="f.jpg" alt="Coffee/Fall" class="gallery-image">
+        </div>
+        <div class="gallery-item" data-title="Beech">
+            <img src="d.jpg" alt="Beech" class="gallery-image">
+        </div>
+    </div>
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <div class="thumbnail-container">
+            </div>
+            <div class="large-image-container">
+                <img id="modalImage" class="modal-image" src="" alt="">
+                <div id="imageCaption" class="caption"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
